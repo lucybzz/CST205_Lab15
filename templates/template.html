@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Flask Page</title>
+    {{ bootstrap.load_css() }}
+</head>
+<body>
+
+  <!-- Task 3 - Jinja Template -->
+  <h1 class="text-center">My Favorite Acronym!</h1>
+
+  <p class="text-center">
+     {{ acronym }}
+  </p>
+
+  <!--Task 4 - Bootstrap Image-->
+  <div class="text-center">
+    <img src="https://picsum.photos/id/43/1280/831"
+        class="rounded w-50"
+        alt="city">
+  </div>
+  
+  {{ bootstrap.load_js() }}
+
+</body>
+</html>
